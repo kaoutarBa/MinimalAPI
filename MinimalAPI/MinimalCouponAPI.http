@@ -1,0 +1,6 @@
+@MinimalCouponAPI_HostAddress = http://localhost:5016
+
+GET {{MinimalCouponAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
