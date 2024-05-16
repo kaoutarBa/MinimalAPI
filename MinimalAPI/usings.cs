@@ -1,4 +1,8 @@
 ﻿global using Microsoft.AspNetCore.Mvc;
+global using Microsoft.EntityFrameworkCore;
+global using Microsoft.EntityFrameworkCore.SqlServer;
+global using MinimalCouponAPI.Repository;
+global using MinimalCouponAPI.Repository.IRepository;
 global using MinimalCouponAPI.Data;
 global using MinimalCouponAPI.Models.DTO;
 global using AutoMapper;
